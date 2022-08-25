@@ -2,11 +2,11 @@
 
 $db = "daotest";
 $host = "localhost";
-$user = "Eduardo";
+$user = "eduardo";
 $pass = "";
 
 try {
-    $conn = new PDO("mysql:dbname=$db;host=$host", $user, $pass)
+    $conn = new PDO("mysql:dbname=$db;host=$host", $user, $pass);
 
 
 
