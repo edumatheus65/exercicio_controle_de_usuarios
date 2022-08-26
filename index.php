@@ -1,6 +1,7 @@
 <?php
 
     require 'conexao.php';
+   
 
 ?>
 
@@ -28,7 +29,7 @@
                 echo '<tr>';
                 echo '<td>' . $usuarios['nome'] . '</td>';           
                 echo '<td>' . $usuarios['email'] . '</td>';
-                echo '<td><a href="editar.php?id='.$usuarios['id'].'">Editar</a> - <a href="excluir.php?id='.$usuarios['id'].'">Excluir</a></td>';                    
+                echo '<td><a href="editar.php?id='.$usuarios['id'].'">Editar</a> - <a href="delete.php?id='.$usuarios['id'].'">Excluir</a></td>';                    
 
                 echo '<tr>';
             }
