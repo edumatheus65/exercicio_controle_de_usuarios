@@ -4,7 +4,7 @@
 
 ?>
 
-<a href="adicionar.php">Adicionar Usuario</a>
+<a href="creat.php">Adicionar Usuario</a>
 
 <table border="0" width="100%">
 
