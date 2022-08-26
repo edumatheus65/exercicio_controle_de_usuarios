@@ -4,6 +4,8 @@
 
 ?>
 
+<a href="adicionar.php">Adicionar Usuario</a>
+
 <table border="0" width="100%">
 
     <tr>
@@ -26,7 +28,7 @@
                 echo '<tr>';
                 echo '<td>' . $usuarios['nome'] . '</td>';           
                 echo '<td>' . $usuarios['email'] . '</td>';
-                echo '<td><a href="">Editar</a> - <a href="">Excluir</a></td>';                    
+                echo '<td><a href="editar.php?id='.$usuarios['id'].'">Editar</a> - <a href="excluir.php?id='.$usuarios['id'].'">Excluir</a></td>';                    
 
                 echo '<tr>';
             }
