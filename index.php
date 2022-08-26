@@ -25,7 +25,9 @@
             foreach($stmt->fetchAll() as $usuarios) {
                 echo '<tr>';
                 echo '<td>' . $usuarios['nome'] . '</td>';           
-                echo '<td>' . $usuarios['email'] . '</td>';                    
+                echo '<td>' . $usuarios['email'] . '</td>';
+                echo '<td><a href="">Editar</a> - <a href="">Excluir</a></td>';                    
+
                 echo '<tr>';
             }
         }
