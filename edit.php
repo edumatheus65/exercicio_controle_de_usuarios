@@ -1,6 +1,7 @@
 <?php
 
 require 'conexao.php';
+require 'index.php';
 
 
 
